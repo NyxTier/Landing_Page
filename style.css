@@ -1,0 +1,14 @@
+div {
+    display: flex;
+}
+.footer,
+.header {
+    background-color: #1F2937;
+}
+.lowerBody,
+.topBody {
+    background-color: white;
+}
+.mainBody {
+    background-color: lightgray;
+}
