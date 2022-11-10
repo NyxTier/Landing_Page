@@ -1,17 +1,35 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url(C:\Odin-Project\Landing_Page\Resources);
+    font-family: Roboto;
+    src: url(Resources/Roboto-Regular.ttf);
 }
 * {
-    display: flex;
     font-family: 'Roboto';
 }
-body {
+body div {
     display: flex;
+    justify-content: center;
+    flex: 1;
 }
-.footer,
+p {
+    font-family: 'Roboto';
+}
 .header {
     background-color: #1F2937;
+    flex-direction: column;
+}
+#header1 {
+    justify-items: center;
+}
+#header1 a {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #E5E7EB;
+}
+#header1 p {
+    color: #F9FAF8;
+}
+#header1 div {
+    justify-content: flex-start;
 }
 .lowerBody,
 .topBody {
