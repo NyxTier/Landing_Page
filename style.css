@@ -1,4 +1,12 @@
-div {
+@font-face {
+    font-family: 'Roboto';
+    src: url(C:\Odin-Project\Landing_Page\Resources);
+}
+* {
+    display: flex;
+    font-family: 'Roboto';
+}
+body {
     display: flex;
 }
 .footer,
