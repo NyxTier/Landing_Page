@@ -1,3 +1,4 @@
+/* Universal Rules */
 @font-face {
     font-family: Roboto;
     src: url(Resources/Roboto-Regular.ttf);
@@ -5,36 +6,56 @@
 * {
     font-family: 'Roboto';
 }
+/* Body Styling */
+body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
 body div {
     display: flex;
     justify-content: center;
     flex: 1;
 }
-p {
-    font-family: 'Roboto';
-}
+/* Header & Hero Styling */
 .header {
     background-color: #1F2937;
     flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
 }
-#header1 {
-    justify-items: center;
+.header div {
+    background-color: #1F2937;
+    justify-content: center;
 }
-#header1 a {
+.header a {
+    
+}
+.header #logo {
+    justify-content: left;
+}
+.header .title p {
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+.header #links {
+    justify-content: flex-end;
+}
+.header #links a {
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: auto;
     margin-bottom: auto;
     color: #E5E7EB;
+    font-size: small;
 }
-#header1 p {
-    color: #F9FAF8;
-}
-#header1 div {
-    justify-content: flex-start;
-}
-.lowerBody,
+/* Upper Body Styling */
 .topBody {
     background-color: white;
 }
+/* Main Body Styling */
 .mainBody {
     background-color: lightgray;
 }
