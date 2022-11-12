@@ -7,6 +7,10 @@
     font-family: Roboto-Bold;
     src: url(Resources/Roboto-Bold.ttf);
 }
+@font-face {
+    font-family: Roboto-LightItalic;
+    src: url(Resources/Roboto-LightItalic.ttf);
+}
 * {
     font-family: 'Roboto';
 }
@@ -131,4 +135,23 @@ body div {
 /* Main Body Styling */
 .mainBody {
     background-color: lightgray;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    flex-direction: column;
+}
+.mainBody #quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-family: 'Roboto-LightItalic';
+    margin: 0;
+    text-align: justify;
+}
+.mainBody #citation {
+    font-family: 'Roboto-Bold';
+
+}
+.mainBody #citationHolder {
+    justify-content: right;
 }
