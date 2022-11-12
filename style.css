@@ -3,6 +3,10 @@
     font-family: Roboto;
     src: url(Resources/Roboto-Regular.ttf);
 }
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(Resources/Roboto-Bold.ttf);
+}
 * {
     font-family: 'Roboto';
 }
@@ -29,9 +33,6 @@ body div {
 .header div {
     background-color: #1F2937;
     justify-content: center;
-}
-.header a {
-    
 }
 .header #logo {
     justify-content: left;
@@ -66,6 +67,7 @@ body div {
     margin-right: 20px;
 }
 .header #heroText {
+    font-family: 'Roboto-Bold';
     font-size: 48px;
     font-weight: bolder;
     margin: 0px;
@@ -95,6 +97,36 @@ body div {
 /* Upper Body Styling */
 .topBody {
     background-color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+    flex-direction: column;
+}
+.TopBody #topBodyTextContainer {
+    justify-content: center;
+}
+.topBody #topBodyText {
+    font-family: 'Roboto-Bold';
+    font-size: 36px;
+    color: #1F2937;
+}
+.topBody .roundBoxHolder {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.topBody .roundBox {
+    border: 5px solid #3882F6;
+    height: 160px;
+    width: 160px;
+    flex-basis: auto;
+    border-radius: 10px;
+}
+.roundBoxHolder p {
+    color:#1F2937;
+    font-size: 18px;
+    margin: 0;
+    width: 170px;
+    text-align: center;
 }
 /* Main Body Styling */
 .mainBody {
