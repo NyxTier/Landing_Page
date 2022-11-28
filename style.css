@@ -198,3 +198,10 @@ body div {
     font-family: 'Roboto-Bold';
     font-size: 24px;
 }
+/* Footer Styling */
+.footer {
+    background-color: #1F2937;
+}
+.footer p {
+    color: white;
+}
