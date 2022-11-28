@@ -78,7 +78,7 @@ body div {
 }
 .header button {
     background-color: #3882F6;
-    width: 90px;
+    width: 100px;
     height: 25px;
     display: flex;
     justify-content: center;
@@ -119,11 +119,12 @@ body div {
     margin-bottom: 120px;
 }
 .topBody .roundBox {
-    border: 5px solid #3882F6;
+    border: 3px solid #3882F6;
     height: 160px;
     width: 160px;
     flex-basis: auto;
-    border-radius: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 .roundBoxHolder p {
     color:#1F2937;
@@ -154,4 +155,46 @@ body div {
 }
 .mainBody #citationHolder {
     justify-content: right;
+}
+/* Lower Body Styling */
+.callToAction {
+    background-color: #3882F6;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    height: 125px;
+    width: auto;
+    border-radius: 10px;
+    align-items: center;
+}
+.callToAction button {
+    border: 2.5px solid white;
+    background-color: #3882F6;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-radius: 5px;
+    color: white;
+    margin-left: 120px;
+    margin-right: 150px;
+}
+.callToAction p {
+    color: white;
+    margin: 0;
+}
+.lowerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 120px;
+}
+.callToActionText {
+    font-family: 'Roboto-Bold';
+    font-size: 24px;
 }
